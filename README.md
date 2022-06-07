@@ -1,6 +1,6 @@
 # Discord Roles
 
-A bot example to extract all roles from a Discord server.
+A simple bot example on how to extract all roles from a Discord server.
 
 ## Requirements
 
@@ -19,6 +19,6 @@ A bot example to extract all roles from a Discord server.
 
 Duplicate `.env.dist` and rename it to `.env`, edit the file:
 
-- BOT_TOKEN = the bot token from the Discord Developer Portal
+- BOT_TOKEN = the bot token copied from the Discord Developer Portal
 - DISCORD_API = the discord API URL
 - GUILD_ID = the server ID for the bot to read the roles
