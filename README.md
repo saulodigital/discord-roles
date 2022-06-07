@@ -2,7 +2,7 @@
 
 A simple bot example on how to extract all roles from a Discord server.
 
-Check the official [Discord Documentation](https://discord.com/developers/docs/resources/guild#get-guild-roles) to more info about `Get Guild Roles`.
+Check the official [Discord Documentation](https://discord.com/developers/docs/resources/guild#get-guild-roles) to have more info about `Get Guild Roles`.
 
 ## Requirements
 
