@@ -1,6 +1,6 @@
 # Discord Roles
 
-A bot example to extract all roles in a Discord server.
+A bot example to extract all roles from a Discord server.
 
 ## Requirements
 
