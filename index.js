@@ -6,16 +6,14 @@ import axios from 'axios';
 dotenv.config();
 const intents = new discord.Intents(8);
 const client = new discord.Client({ intents });
-client.login(process.env.BOT_TOKEN);
-
 
 client.on('ready', async() => {
 
     // set bot status for fun
-    await client.user.setActivity('in the Lab.');
     console.log('All roads lead to Eco!');
+    await client.user.setActivity('in the Lab.');
     
-    // fetch all server roles
+    // get all server roles
     const options = {
         method: 'GET',
         url: `${process.env.DISCORD_API}/guilds/${process.env.GUILD_ID}/roles`,
@@ -31,3 +29,5 @@ client.on('ready', async() => {
     .catch(err => console.error(err));
 
 });
+
+client.login(process.env.BOT_TOKEN);
